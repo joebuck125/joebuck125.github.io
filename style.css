@@ -4,6 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* Changes all text color */
+    color: blanchedalmond;
     
 }
 
@@ -15,7 +17,8 @@ html {
 }
 
 h1, h2, h3, h4 {
-    color: #666;
+    /* Changes all text color */
+    color: blanchedalmond;
 }
 
 header,
@@ -23,6 +26,11 @@ main,
 footer {
     margin: 0 auto;
     max-width: 800px;
+}
+
+#profile-pic{
+    /* Size of prof-pic */
+    width: 25%;
 }
 
 header {
@@ -112,6 +120,17 @@ section ul {
 
 #gallery article img {
     width: 100%;
+}
+
+#art1{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#art2{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 
