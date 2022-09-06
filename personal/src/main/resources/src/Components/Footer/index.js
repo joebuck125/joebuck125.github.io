@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className={style.footerLinksList}>
                     <h2>Blog</h2>
 
-                    <Link to={'/Journal-Page'} className={style.footerLinks}>Journal</Link>
+                    <Link to={'/Journal-Page'} className={style.footerLinks}>Buck's Blog</Link>
 
                 </div>
                 <div>
