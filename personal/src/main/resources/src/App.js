@@ -1,26 +1,21 @@
-import './App.scss';
+import AppRouter from "../../resources/src/Components/App-Router";
+import {BrowserRouter} from "react-router-dom";
+import Footer from "../src/Components/Footer";
+import Header from "../src/Components/Header";
+import React from "react";
 
-import Me from "../../resources/src/Images/me.JPG"
-import logo from './logo.svg';
+const App = () => {
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={Me} className="App-logo" alt="logo" />
-        <p>
-          testing
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div>
+      <BrowserRouter>
+      <Header />
+      <AppRouter />
+      <Footer />
+      </BrowserRouter>
     </div>
+    
   );
 }
 
