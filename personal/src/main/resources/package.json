@@ -1,5 +1,5 @@
 {
-  "homepage": "http://joebuck125.github.io/joebuck125.github.io",
+  "homepage": "http://joebuck125.github.io",
   "name": "resources2",
   "version": "0.1.0",
   "private": true,
@@ -30,7 +30,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d static",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "set BUILD_PATH=static&&react-scripts build",
     "test": "react-scripts test",
