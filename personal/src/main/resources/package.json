@@ -30,7 +30,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d static",
     "start": "react-scripts start",
     "build": "set BUILD_PATH=static&&react-scripts build",
     "test": "react-scripts test",
