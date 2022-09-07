@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/joebuck125.github.io/static/css/main.901fc264.css",
+    "main.js": "/joebuck125.github.io/static/js/main.48435a9e.js",
+    "static/js/787.5e4f82fd.chunk.js": "/joebuck125.github.io/static/js/787.5e4f82fd.chunk.js",
+    "static/media/me.JPG": "/joebuck125.github.io/static/media/me.6fb46e8699fdb0cde4f0.JPG",
+    "index.html": "/joebuck125.github.io/index.html",
+    "main.901fc264.css.map": "/joebuck125.github.io/static/css/main.901fc264.css.map",
+    "main.48435a9e.js.map": "/joebuck125.github.io/static/js/main.48435a9e.js.map",
+    "787.5e4f82fd.chunk.js.map": "/joebuck125.github.io/static/js/787.5e4f82fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.901fc264.css",
+    "static/js/main.48435a9e.js"
+  ]
+}
